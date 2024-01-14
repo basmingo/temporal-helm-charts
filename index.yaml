@@ -3,7 +3,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2024-01-15T00:48:13.4470478+03:00"
+    created: "2024-01-15T01:19:39.4271271+03:00"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
@@ -26,7 +26,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2024-01-15T00:48:13.448145+03:00"
+    created: "2024-01-15T01:19:39.4271271+03:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: 437a6bd248482b8eb663a1f63bee6c2f9d00c0d77abe90c5a86ca35631969608
     home: https://github.com/elastic/helm-charts
@@ -43,7 +43,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 6.7.1
-    created: "2024-01-15T00:48:13.4492427+03:00"
+    created: "2024-01-15T01:19:39.4372322+03:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 5715ddf4d5a012a7bdb1f4ef0f4d4faebef022ad12f2c9d656fbe8a17a23d5c1
     home: https://grafana.net
@@ -65,7 +65,7 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.31.1
-    created: "2024-01-15T00:48:13.4530787+03:00"
+    created: "2024-01-15T01:19:39.4372322+03:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -100,7 +100,7 @@ entries:
   temporal:
   - apiVersion: v2
     appVersion: 1.22.4
-    created: "2024-01-15T00:48:13.4459424+03:00"
+    created: "2024-01-15T01:19:39.4271271+03:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -121,7 +121,7 @@ entries:
     description: Temporal is a distributed, scalable, durable, and highly available
       orchestration engine to execute asynchronous long-running business logic in
       a scalable and resilient way.
-    digest: 55d3dd0b06036d44ed324d9c5b0b9294c90cfa45d2d4044344a9515a4ba0dd42
+    digest: 826d8fcbdbf7f3dee03edc6ebe37674da874276b8a249b7d31d918a2204ea3f9
     home: https://temporal.io/
     keywords:
     - temporal
@@ -137,4 +137,4 @@ entries:
     urls:
     - https://basmingo.github.io/temporal-helm-charts/temporal-0.32.0.tgz
     version: 0.32.0
-generated: "2024-01-15T00:48:13.4361827+03:00"
+generated: "2024-01-15T01:19:39.4185075+03:00"
